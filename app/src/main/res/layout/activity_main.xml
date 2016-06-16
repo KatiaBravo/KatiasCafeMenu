@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.katiascafemenu.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coffee"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/info"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Katia's Cafe"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:padding="10dp"
+        android:layout_below="@id/info"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: Katia's Cafe is a shop that has prices under $8 and serves a variety of drinks, as well as a variation of different baked goods."
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@id/name"
+        android:id="@+id/description"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone #:(408)KAT-CAFE"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/phone"
+        android:layout_below="@id/description"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 11 Katia Bravo Dr."
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@id/phone"
+        android:id="@+id/address"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: www.katia's_cafe.com"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@id/address"
+        android:id="@+id/website"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours Open: M-F: 6am-6pm and Sat-"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/website"
+        android:id="@+id/hours_open"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sun: 7am-4pm"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/hours_open"
+        android:id="@+id/hours_open2"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please come join us!"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/hours_open2"
+        android:id="@+id/text"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
